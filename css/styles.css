@@ -3,14 +3,23 @@ html {
 }
 
 *, body {
-    font-family: 'Inter', sans-serif;
-    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
-h1, h2 {
-    font-family: 'Inter', sans-serif;
-    font-family: 'Noto Sans JP', sans-serif;
+p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 1.35px;
+    color: #646464;
+}
+
+h2 {
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: 3rem;
+    letter-spacing: 5.4px;
+    margin-bottom: 20px;
 }
 
 #header {
@@ -76,7 +85,7 @@ h1, h2 {
     }
 }
 
-.home_intro img {
+#home_intro img {
     width: 100%;
     height: auto;
 }
