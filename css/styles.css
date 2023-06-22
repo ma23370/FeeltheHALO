@@ -86,12 +86,20 @@ h2 {
     }
 }
 
+
+/* ファーストビュー */
 #home_intro img {
     width: 100%;
     height: auto;
     display: block;
 }
 
+/* 花びらアニメーション */
+
+
+
+
+/* コンセプト */
 #concept {
     display: flex;
 }
