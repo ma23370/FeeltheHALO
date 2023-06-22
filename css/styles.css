@@ -20,7 +20,7 @@ h2 {
     font-family: 'BIZ UDPMincho', serif;
     font-size: 3rem;
     letter-spacing: 5.4px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 #header {
@@ -181,11 +181,51 @@ h2 {
 
 /* コンセプト */
 #concept {
+    width: 69.44%;
+    margin: 0 auto;
     display: flex;
+    margin-top: 183px;
 }
 
+
+.concept_item {
+    position: relative;
+    background-size: cover;
+    width: 824px;
+    height: 355px;
+    z-index: -2;
+}
+
+
 .concept_cont {
-    padding: 30px;
+    position: relative;
+    margin-top: 226px;
+    /* padding: 90px 47px; */
+    width: 120%;
+}
+
+.concept_cont p {
+    font-size: 1.4rem;
+}
+
+.concept_cont::after {
+    content: "";
+    position: absolute;
     border-radius: 7px;
     background: rgba(255, 255, 255, 0.70);
+    top: -23.44%;
+    left: -10.94%;
+    width: 115.08%;
+    height: 146.88%;
+    z-index: -1;
+}
+
+.concept_item img {
+    position: absolute;
+    right: 0;
+}
+
+.concept_item img:last-child {
+    right: -60px;
+    margin-top: 56px;
 }
