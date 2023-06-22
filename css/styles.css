@@ -2,7 +2,8 @@ html {
     font-size: 10px;
 }
 
-*, body {
+body {
+    background-color: #FAF9F8;
     font-weight: 400;
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -88,4 +89,15 @@ h2 {
 #home_intro img {
     width: 100%;
     height: auto;
+    display: block;
+}
+
+#concept {
+    display: flex;
+}
+
+.concept_cont {
+    padding: 30px;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.70);
 }
