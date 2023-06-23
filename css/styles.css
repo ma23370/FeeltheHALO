@@ -234,6 +234,42 @@ h2 {
     margin-top: 56px;
 }
 
+/* 泡 */
+.concept_awa li{
+    position: absolute;
+}
+
+.concept_awa li:nth-child(1) {
+    right: 100px;
+    bottom: -35px;
+}
+
+.concept_awa li:nth-child(2) {
+    right: 15px;
+    bottom: 60px;
+}
+
+.concept_awa li:nth-child(3) {
+    right: 55px;
+    bottom: 55px;
+}
+
+.concept_awa li:nth-child(4) {
+    right: 270px;
+    bottom: 10px;
+}
+
+.concept_awa li:nth-child(5) {
+    right: 240px;
+    bottom: 70px;
+}
+
+.concept_awa li:nth-child(6) {
+    right: 260px;
+    bottom: 150px;
+}
+
+/* 場面切り替えのイメージ */
 #background_img {
     width: 100%;
     margin-top: 262px;
