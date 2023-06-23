@@ -235,7 +235,7 @@ h2 {
 }
 
 /* 泡 */
-.concept_awa li{
+.concept_awa li {
     position: absolute;
 }
 
@@ -292,7 +292,24 @@ h2 {
     width: 69.44%;
     margin: 0 auto;
     display: flex;
+    gap: 120px;
     margin-top: 228px;
+}
+
+.point02_img {
+    position: relative;
+}
+
+.point02_img::after {
+    content: "";
+    position: absolute;
+    background: url(../img/point/point02_2.png);
+    background-size: contain;
+    top: 263px;
+    left: 268px;
+    width: 236px;
+    height: 246px;
+    z-index: -1;
 }
 
 .oil_group {

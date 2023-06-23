@@ -1,5 +1,5 @@
-var showNum = 6, // 最初に表示しておく件数
-    addNum = 6,  // クリックごとに表示したい件数
+var showNum = 5, // 最初に表示しておく件数
+    addNum = 5,  // クリックごとに表示したい件数
     target = '.target',
     btn = $('.btn-more');
 
