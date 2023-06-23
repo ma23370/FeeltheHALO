@@ -244,3 +244,66 @@ h2 {
     display: block;
     margin-bottom: 26px;
 }
+
+.point01 {
+    width: 69.44%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 222px;
+}
+
+.point02 {
+    width: 69.44%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 228px;
+}
+
+.oil_group {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.target {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 4px;
+
+    &.is-hidden {
+        display: none;
+        opacity: 0;
+    }
+
+    &.is-show {
+        animation: fadeIn 1s ease;
+        /* フェードイン用のスタイル */
+    }
+}
+
+.btn-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+
+    &:hover {
+        opacity: .9
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
