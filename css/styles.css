@@ -104,16 +104,16 @@ h2 {
     position: absolute;
     top: 0;
     width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flower li {
     position: absolute;
     top: -50px;
-	animation: fall 5s linear infinite, rotate1 2s ease-in-out infinite alternate;
+    animation: fall 5s linear infinite, rotate1 2s ease-in-out infinite alternate;
 }
 
 .flower li:nth-child(1) {
@@ -157,25 +157,29 @@ h2 {
 }
 
 @keyframes fall {
-	to {
-		top: 120%;
-	}
+    to {
+        top: 120%;
+    }
 }
+
 @keyframes rotate1 {
-	from {
-		transform: translateX(0px) rotate(0deg); 
-	}
-	to {
-		transform: translateX(200px) rotate(-80deg) rotateX(180deg);
-	}
+    from {
+        transform: translateX(0px) rotate(0deg);
+    }
+
+    to {
+        transform: translateX(200px) rotate(-80deg) rotateX(180deg);
+    }
 }
+
 @keyframes rotate2 {
-	from {
-		transform: translateX(200px) rotate(-45deg);
-	}
-	to {
-		transform: translateX(0px) rotate(0deg);
-	}
+    from {
+        transform: translateX(200px) rotate(-45deg);
+    }
+
+    to {
+        transform: translateX(0px) rotate(0deg);
+    }
 }
 
 
@@ -228,4 +232,15 @@ h2 {
 .concept_item img:last-child {
     right: -50px;
     margin-top: 56px;
+}
+
+#background_img {
+    width: 100%;
+    margin-top: 262px;
+}
+
+.background_img1 {
+    margin: 0 0 0 auto;
+    display: block;
+    margin-bottom: 26px;
 }
