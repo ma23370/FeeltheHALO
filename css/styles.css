@@ -370,8 +370,10 @@ h2 {
     position: relative;
     z-index: 1;
     /*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
-    height: 100vh;
-    /*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 50px 14px rgba(0, 0, 0, 0.08);
 }
 
 /*　背景画像設定　*/
@@ -391,7 +393,7 @@ h2 {
 .slider-item {
     width: 100%;
     /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
-    height: 100vh;
+    height: 500px;
     /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
     background-repeat: no-repeat;
     /*背景画像をリピートしない*/
@@ -409,7 +411,7 @@ h2 {
     position: absolute;
     /*絶対配置にする*/
     z-index: 3;
-    top: 42%;
+    top: 50%;
     cursor: pointer;
     /*マウスカーソルを指マークに*/
     outline: none;
