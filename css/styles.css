@@ -290,6 +290,7 @@ h2 {
     margin: 0 auto;
     display: flex;
     margin-top: 222px;
+    gap: 10%;
 }
 
 .point02 {
@@ -370,7 +371,7 @@ h2 {
     position: relative;
     z-index: 1;
     /*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
-    width: 70%;
+    width: 1000px;
     height: 500px;
     margin: 0 auto;
     box-shadow: 0px 0px 50px 14px rgba(0, 0, 0, 0.08);
@@ -467,3 +468,47 @@ h2 {
     background: #333;
     /*ドットボタンの現在地表示の色*/
 }
+
+
+/* 使い方 */
+.use_tit, .use_txt {
+    text-align: center;
+}
+
+#use {
+    margin-top: 300px;
+}
+
+.use_tit {
+    position: relative;
+}
+
+.use_tit::after {
+    content: "";
+    display: block;
+    background: url(../img/use_item.png);
+    background-size: 119px 154px;
+    width: 119px;
+    height: 154px;
+    position: absolute;
+    top: -250%;
+    left: 25%;
+}
+
+.use_txt {
+    margin-bottom: 60px;
+}
+
+.video {
+    width: 100%;
+    text-align: center;
+}
+  
+.video iframe {
+    width: 616px;
+    height: 346.5px;
+}
+
+#original {
+    margin-top: 253px;
+} 
