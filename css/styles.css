@@ -509,6 +509,59 @@ h2 {
     height: 346.5px;
 }
 
+
+/* オリジナルコンテンツ */
 #original {
     margin-top: 253px;
+    width: 100%;
+    height: 768px;
+    background: url(../img/bg.jpg) no-repeat;
+    background-position: 0 60px;
+    position: relative;
 } 
+
+#original::after {
+    content: "";
+    display: block;
+    width: 1028px;
+    height: 344px;
+    background-color: #fff;
+    border-radius: 7px;
+    position: absolute;
+    top: 353px;
+    right: 0;
+    z-index: 0;
+}
+
+
+.original_tit, .original_cont {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.original_tit {
+    margin-bottom: 126px;
+}
+
+.original_txt {
+    margin-left: 7%;
+}
+
+.original_cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.original_img {
+    display: flex;
+    flex-flow: column;
+    width: 344px;
+}
+
+.original_img img:nth-child(2) {
+    margin-top: 10px;
+    margin-left: 50px;
+}
