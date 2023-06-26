@@ -34,6 +34,7 @@ h2 {
     color: #4A4A4A;
     text-align: center;
     padding: 35px;
+    background-color: #ffff;
 }
 
 #header.UpMove {
@@ -455,19 +456,17 @@ h2 {
     color: transparent;
     outline: none;
     width: 8px;
-    /*ドットボタンのサイズ*/
     height: 8px;
-    /*ドットボタンのサイズ*/
     display: block;
     border-radius: 50%;
     background: #ccc;
-    /*ドットボタンの色*/
 }
 
 .slick-dots .slick-active button {
     background: #333;
     /*ドットボタンの現在地表示の色*/
 }
+
 
 
 /* 使い方 */
@@ -508,7 +507,6 @@ h2 {
     width: 616px;
     height: 346.5px;
 }
-
 
 /* オリジナルコンテンツ */
 #original {
@@ -572,6 +570,8 @@ h2 {
     border-radius: 7px;
     padding: 15px 70px;
     transition: 0.4s;
+    margin-top: 30px;
+    display: grid;
 }
 
 .more_btn span {
@@ -600,5 +600,55 @@ h2 {
     font-size: 2rem;
     letter-spacing: 0.57px;
     transition: 0.4s;
+}
 
+.product_img {
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+.kaiketu {
+    width: 60%;
+    background: url(../img/original/bg_kaiketu.svg) no-repeat;
+    background-size: contain;
+    padding: 125px 66px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.kaiketu_wrap {
+    width: 100%;
+    text-align: center;
+}
+
+.kaiketu_ttl {
+    display: inline-block;
+    border-radius: 20px;
+    background: #B2DDF9;
+    padding: 8px 25px;
+    margin-bottom: 15px;
+}
+
+.kaiketu_ttl span {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.kaiketu_txt {
+    color: #666464;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 4.35rem;
+    letter-spacing: -0.06rem;
+}
+
+.original_onayami {
+    width: 69.44%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
 }
