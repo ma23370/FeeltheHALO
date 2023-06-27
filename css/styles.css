@@ -565,6 +565,8 @@ h2 {
 }
 
 .more_btn {
+    width: 35%;
+    margin: 0 auto;
     background-color: #fff;
     box-shadow: 0px 3px 18px 0px rgba(0, 0, 0, 0.14);
     border-radius: 7px;
@@ -660,12 +662,12 @@ h2 {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    margin-top: 140px;
 }
 
 .user {
     width: 28%;
     background-color: #ffff;
-    margin: 20px;
     padding: 20px;
     padding-top: 45px;
     padding-bottom: 60px;
@@ -684,6 +686,8 @@ h2 {
     font-weight: bold;
     margin-top: 14px;
     margin-bottom: 33px;
+    line-height: 219.6%;
+    color: #4A4A4A;
 }
 
 .user dd {
@@ -691,6 +695,7 @@ h2 {
     line-height: 219.6%;
     font-weight: 400;
     letter-spacing: -1.02px;
+    color: #666464;
 }
 
 .user_inner {
@@ -707,4 +712,82 @@ h2 {
     margin: 0 auto;
     text-align: center;
     margin-bottom: 36px;
+}
+
+.product_img img {
+    margin-left: 30px;
+}
+
+#voice {
+    margin-top: 417px;
+}
+
+h2.voice_tit {
+    position: relative;
+}
+
+h2.voice_tit::after {
+    content: "";
+    position: absolute;
+    background: url(../img/user/bg_voice_ttl.png)no-repeat;
+    background-size: contain;
+    width: 84.72%;
+    height: 17px;
+}
+
+h2.voice_tit span {
+    width: 69.44%;
+    margin: 0 auto;
+    display: block;
+}
+
+.user_wrap {
+    position: relative;
+}
+
+.user_wrap::after {
+    position: absolute;
+    content: "";
+    background: url(../img/bg.jpg);
+    background-size: contain;
+    top: -40px;
+    width: 100%;
+    height: 70vh;
+    z-index: -1;
+}
+
+.sns {
+    font-family: 'BIZ UDPMincho', serif;
+    margin-right: 23px;
+    letter-spacing: 2.52px;
+    color: #666464;
+}
+
+.sns_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 145px;
+}
+
+ul.sns_icon {
+    display: flex;
+}
+
+.sns_border {
+    width: 273px;
+    height: 1px;
+    background-color: #666464;
+}
+
+.sns_icon li {
+    margin-left: 30px;
+}
+
+.online_shop {
+    padding-top: 200px;
+    padding-bottom: 157px;
+    background: url(../img/Group\ 219.webp)no-repeat;
+    background-size: contain;
+
 }
