@@ -662,7 +662,7 @@ h2 {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 140px;
+    margin-top: 90px;
 }
 
 .user {
@@ -730,15 +730,18 @@ h2.voice_tit::after {
     content: "";
     position: absolute;
     background: url(../img/user/bg_voice_ttl.png)no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 84.72%;
-    height: 17px;
+    height: 5px;
+    margin-top: 13px;
 }
 
 h2.voice_tit span {
     width: 69.44%;
     margin: 0 auto;
     display: block;
+    color: #9C9C9C;
+    letter-spacing: 3px;
 }
 
 .user_wrap {
@@ -768,6 +771,7 @@ h2.voice_tit span {
     justify-content: center;
     align-items: center;
     margin-top: 145px;
+    margin-bottom: 170px;
 }
 
 ul.sns_icon {
@@ -787,7 +791,30 @@ ul.sns_icon {
 .online_shop {
     padding-top: 200px;
     padding-bottom: 157px;
-    background: url(../img/Group\ 219.webp)no-repeat;
-    background-size: contain;
+    background: url(../img/bg_shop.webp)no-repeat;
+    background-size: cover;
+}
 
+footer {
+    padding-top: 44px;
+    padding-bottom: 32px;
+    display: flex;
+}
+
+#footerlogo {
+    margin-left: 50px;
+}
+
+.g-navi {
+    margin-left: auto;
+    margin-right: 75px;
+}
+
+.g-navi ul {
+    display: flex;
+}
+
+.g-navi ul li a {
+    font-size: 1.4rem;
+    margin-left: 31px;
 }
