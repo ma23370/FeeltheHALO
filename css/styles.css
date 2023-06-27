@@ -669,6 +669,8 @@ h2 {
     padding: 20px;
     padding-top: 45px;
     padding-bottom: 60px;
+    box-shadow: 2px 12px 34px 1px rgba(0, 0, 0, 0.07);
+    border-radius: 7px;
 }
 
 .user_name {
