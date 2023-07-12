@@ -45,6 +45,7 @@ h2 {
     display: flex;
     margin-right: 20px;
     align-items: center;
+
 }
 
 #g-navi li {
@@ -1030,22 +1031,10 @@ footer {
     padding-top: 44px;
     padding-bottom: 32px;
     display: flex;
+    justify-content: space-between;
+    margin-right: 63px;
 }
 
 #footerlogo {
     margin-left: 50px;
-}
-
-.g-navi {
-    margin-left: auto;
-    margin-right: 75px;
-}
-
-.g-navi ul {
-    display: flex;
-}
-
-.g-navi ul li a {
-    font-size: 1.4rem;
-    margin-left: 31px;
 }
