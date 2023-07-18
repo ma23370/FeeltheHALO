@@ -91,6 +91,11 @@ h2 {
 
 /* ファーストビュー */
 #fv {
+    background-image: url(../img/fv_bg.webp);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
 }
@@ -356,7 +361,6 @@ h2 {
 .concept_cont {
     position: relative;
     margin-top: 226px;
-    /* padding: 90px 47px; */
     width: 120%;
 }
 
@@ -685,10 +689,6 @@ h2 {
     margin-top: 300px;
 }
 
-.use_tit {
-    position: relative;
-}
-
 .use_tit::after {
     content: "";
     display: block;
@@ -696,20 +696,20 @@ h2 {
     background-size: 119px 154px;
     width: 119px;
     height: 154px;
-    position: absolute;
-    top: -250%;
-    left: 25%;
+    margin-top: -95px;
+    margin-left: 277px;
 }
 
 .use_txt {
     margin-bottom: 60px;
 }
 
-#video {
-    position: relative;
+#video::after {
+    content: "";
+    background: url(../img/use/leaf.png)no-repeat;
 }
 
-.video_leaf {
+/* .video_leaf{
     bottom: 0;
     left: 7.15%;
 }
@@ -717,7 +717,7 @@ h2 {
 .video_leaf2 {
     bottom: 0;
     right: 6.81%;
-}
+} */
 
 .video_inner {
     width: 100%;
@@ -884,6 +884,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-top: 90px;
+    overflow-x: scroll;
 }
 
 .user {
@@ -1037,4 +1038,54 @@ footer {
 
 #footerlogo {
     margin-left: 50px;
+}
+
+@media (max-width:768px) {
+    .background_img1, .background_img2, .point02_hana {
+        display: none;
+    }
+
+    .concept_inner, .point01 {
+        flex-flow: column-reverse;
+    }
+
+    .concept_item {
+        position: static;
+    }
+
+    .point02_inner, .original_cont, .original_onayami {
+        flex-flow: column;
+    }
+
+
+    .concept_cont {
+        padding: 90px 47px;
+
+    }
+
+    .more_btn_shop {
+        padding: 35px 0;
+    }
+
+    .user {
+        width: 100%;
+        margin: 43px;
+    }
+
+    .kaiketu {
+        width: 100%;
+    }
+
+    .original_onayami {
+        width: 100%;
+        margin-top: 116px;
+    }
+
+    .product_img {
+        margin-top: 421px;
+    }
+
+    #voice {
+        margin-top: 865px;
+    }
 }
