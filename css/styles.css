@@ -350,18 +350,24 @@ h2 {
 }
 
 .concept_item {
-    position: relative;
-    background-size: cover;
+    /* position: relative;
     width: 824px;
     height: 355px;
-    z-index: -2;
+    z-index: -2; */
 }
 
+.concept_girl {
+    width: 50%;
+}
+
+.rellax {
+    width: 20.88%;
+}
 
 .concept_cont {
-    position: relative;
+    /* position: relative;
     margin-top: 226px;
-    width: 120%;
+    width: 120%; */
 }
 
 .concept_cont p {
@@ -442,21 +448,33 @@ h2 {
 }
 
 .background_img1 {
+    width: 50%;
+    height: 100%;
     margin: 0 0 0 auto;
     display: block;
     margin-bottom: 26px;
 }
 
+.background_img2 {
+    width: 50%;
+    height: 100%;
+}
+
 #product {
+    width: 69.44%;
+    margin: 0 auto;
     margin-bottom: 296px;
 }
 
 .point01 {
-    width: 69.44%;
-    margin: 0 auto;
     display: flex;
     margin-top: 222px;
     gap: 10%;
+}
+
+.point01_awa {
+    width: 50%;
+    height: 100%;
 }
 
 .point02 {
@@ -466,6 +484,7 @@ h2 {
 .point02_hana {
     top: -187px;
     right: 11.28%;
+    z-index: -1;
 }
 
 .point02_leaf {
@@ -479,14 +498,14 @@ h2 {
 }
 
 .point02_inner {
-    width: 69.44%;
-    margin: 0 auto;
     display: flex;
-    gap: 120px;
+    gap: 24px;
     margin-top: 228px;
 }
 
 .point02_img {
+    width: 50%;
+    height: 100%;
     position: relative;
 }
 
@@ -579,12 +598,19 @@ h2 {
     }
 }
 
+.slider_wrap {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    padding: 70px 0;
+}
+
 .slider {
     position: relative;
     z-index: 1;
     /*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
-    width: 1000px;
-    height: 500px;
+
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
     box-shadow: 0px 0px 50px 14px rgba(0, 0, 0, 0.08);
 }
@@ -888,7 +914,8 @@ h2 {
 }
 
 .user {
-    width: 28%;
+    width: 100%;
+    margin: 43px;
     background-color: #ffff;
     padding: 20px;
     padding-top: 45px;
@@ -1067,10 +1094,6 @@ footer {
         padding: 35px 0;
     }
 
-    .user {
-        width: 100%;
-        margin: 43px;
-    }
 
     .kaiketu {
         width: 100%;
