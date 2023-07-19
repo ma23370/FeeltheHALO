@@ -716,12 +716,31 @@ h2 {
     margin-bottom: 60px;
 }
 
-#video::after {
+.video_inner {}
+
+.video_inner::after {
     content: "";
     background: url(../img/use/leaf.png)no-repeat;
+    position: absolute;
+    width: 159px;
+    height: 203px;
+    left: 91px;
+    margin-top: 96px;
+    z-index: -1;
 }
 
-/* .video_leaf{
+.video_inner::before {
+    content: "";
+    background: url(../img/use/leaf2.png)no-repeat;
+    position: absolute;
+    width: 178px;
+    height: 235px;
+    right: 76px;
+    margin-top: 96px;
+    z-index: -1;
+}
+
+.video_leaf {
     bottom: 0;
     left: 7.15%;
 }
@@ -729,7 +748,7 @@ h2 {
 .video_leaf2 {
     bottom: 0;
     right: 6.81%;
-} */
+}
 
 .video_inner {
     width: 100%;
